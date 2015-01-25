@@ -17,12 +17,12 @@ import time
 import json
 
 # set parameter
-old = '100001'
+old = 'CLOTHID'
 itemType = 'clothes'
 totalNumber = 20000
 startNumber = 100001
 #登录的主页面
-targetURL = r"http://image.baidu.com/i?objurl=http%3A%2F%2Fholdonyb.github.io%2Fbigdatacontest%2Fclothes_image%2F"+itemType+r"_100001.jpg&rainbow=1&filename=&rt=0&rn=10&ftn=searchpcstu&ct=1&stt=0&tn=shituresultpc"
+targetURL = r"http://image.baidu.com/i?objurl=http%3A%2F%2Fholdonyb.github.io%2Fbigdatacontest%2Fclothes_image%2F"+itemType+r"_"+old+r".jpg&rainbow=1&filename=&rt=0&rn=10&ftn=searchpcstu&ct=1&stt=0&tn=shituresultpc"
 
 headers ={"User-agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36",
           "Host":"image.baidu.com",
